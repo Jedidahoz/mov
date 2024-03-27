@@ -61,12 +61,12 @@ function App() {
         </div>
       </nav>
       <div className="flex mx-[80px] my-28 ">
-        <div className="w-1/2 text-white border-solid border-2 border-l-0 border-b-0 py-28 ">
+        <div className="w-1/2 text-white py-28 ">
           <p className='text-4xl karantina-bold'>FIND MOVIES</p>
           <i class="fa-regular fa-circle-play"></i>
           <p className='text-5xl bg-gradient-to-r text-transparent bg-clip-text bg-gradient-to-r to-pink-500 from-blue-700 font-bold'>TV SHOWS AND MORE</p>
         </div>
-        <div className="w-1/2 flex text-white border-2 border-t-0 border-r-0 px-4">
+        <div className="w-1/2 flex text-white px-4">
           <i class="fa-regular fa-circle-play"></i>
           <img className='absolute z-50 mt-[40px] w-[300px] h-[]' src={media1} alt="Logo" />
           <img className='z-10 ml-[90px] w-[300px] h-[]' src={media2} alt="Logo" />
